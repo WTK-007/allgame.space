@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survivors - Epic Survival Adventure Game | Play Online Now</title>
+    <meta name="description" content="Play Monster Survivors online - an addictive action survival game where you battle endless waves of monsters while upgrading your character.">
+    <link rel="canonical" href="https://monstersurvivors.com/">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Monster Survivors - Epic Survival Adventure Game">
+    <meta property="og:description" content="Battle endless waves of monsters in this addictive survival game. Level up, unlock new abilities, and see how long you can survive!">
+    <meta property="og:url" content="https://monstersurvivors.com/">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        apple: {
+                            blue: '#007AFF',
+                            white: '#FFFFFF',
+                            gray: '#F2F2F7',
+                            darkgray: '#1D1D1F',
+                            red: '#FF3B30',
+                            green: '#34C759'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        
+        .game-container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            overflow: hidden;
+            border-radius: 12px;
+        }
+        
+        .game-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        @media (max-width: 768px) {
+            .game-container {
+                padding-bottom: 75%; /* Adjusted for mobile */
+            }
+        }
+    </style>
+</head>
+<body class="bg-apple-white text-apple-darkgray">
+    <header class="bg-apple-blue text-white py-6 px-4 md:px-8 shadow-lg">
+        <div class="container mx-auto">
+            <nav class="flex justify-between items-center">
+                <div class="text-2xl font-bold">Monster Survivors</div>
+                <ul class="hidden md:flex space-x-6">
+                    <li><a href="#" class="hover:text-apple-gray transition">Home</a></li>
+                    <li><a href="#how-to-play" class="hover:text-apple-gray transition">How to Play</a></li>
+                    <li><a href="#features" class="hover:text-apple-gray transition">Features</a></li>
+                    <li><a href="#tips" class="hover:text-apple-gray transition">Tips & Tricks</a></li>
+                </ul>
+                <button class="md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="container mx-auto px-4 md:px-8 py-8">
+        <section class="mb-12 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Monster Survivors</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-gray-700">Survive endless waves of monsters in this action-packed adventure where only your skills and upgrades stand between you and certain doom.</p>
+            
+            <div class="game-container mb-6 shadow-xl">
+                <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" allowfullscreen></iframe>
+            </div>
+            
+            <div class="bg-apple-green text-white py-3 px-6 rounded-full inline-block font-bold text-lg shadow-md hover:shadow-lg transition transform hover:scale-105">
+                Play Now!
+            </div>
+        </section>
+        
+        <section id="about" class="mb-16">
+            <h2 class="text-3xl font-bold mb-6 border-b-2 border-apple-blue pb-2">About Monster Survivors</h2>
+            <div class="md:grid md:grid-cols-2 gap-8">
+                <div class="mb-6 md:mb-0">
+                    <p class="mb-4">Monster Survivors is an intense action survival game where your objective is simple yet challenging: survive as long as possible against increasingly difficult waves of monsters. As you progress, you'll gain experience, level up, and unlock new abilities to enhance your chances of survival.</p>
+                    <p>The game features a top-down perspective where you navigate your character through a dynamically generated world filled with dangers and opportunities. With its addictive gameplay loop and strategic depth, Monster Survivors offers hours of engaging entertainment for casual and hardcore gamers alike.</p>
+                </div>
+                <div class="bg-apple-gray p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-3">Game Highlights</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li>Endless survival gameplay with progressive difficulty</li>
+                        <li>Character progression and skill upgrades</li>
+                        <li>Variety of monsters with unique behaviors</li>
+                        <li>Dynamic environments with random elements</li>
+                        <li>Simple controls but deep strategic gameplay</li>
+                        <li>Engaging visual effects and sound design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="how-to-play" class="mb-16">
+            <h2 class="text-3xl font-bold mb-6 border-b-2 border-apple-blue pb-2">How to Play</h2>
+            <div class="space-y-6">
+                <div class="bg-apple-gray p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-2">Controls</h3>
+                    <p class="mb-3">Monster Survivors uses intuitive controls that are easy to pick up:</p>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li><span class="font-semibold">WASD or Arrow Keys:</span> Move your character</li>
+                        <li><span class="font-semibold">Mouse:</span> Aim your attacks or abilities</li>
+                        <li><span class="font-semibold">Number Keys (1-4):</span> Use special abilities (when unlocked)</li>
+                        <li><span class="font-semibold">Space:</span> Dash (when available)</li>
+                        <li><span class="font-semibold">ESC:</span> Pause the game</li>
+                    </ul>
+                </div>
+                
+                <div class="md:grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-bold mb-3">Basic Gameplay</h3>
+                        <p>Your character automatically attacks nearby enemies. Your job is to position yourself strategically to maximize your attack efficiency while avoiding taking damage. Collect experience gems from fallen enemies to level up and choose new upgrades.</p>
+                        <p class="mt-3">The longer you survive, the more difficult the enemies become, both in terms of numbers and strength. Plan your upgrades wisely to create a powerful build that can handle late-game challenges.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-3">Upgrades System</h3>
+                        <p>Each time you level up, you'll be presented with a choice of upgrades. These fall into several categories:</p>
+                        <ul class="list-disc pl-5 space-y-1 mt-2">
+                            <li>Offensive improvements (damage, attack speed)</li>
+                            <li>Defensive attributes (health, armor)</li>
+                            <li>Utility upgrades (movement speed, pickup radius)</li>
+                            <li>New weapons and special abilities</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="features" class="mb-16">
+            <h2 class="text-3xl font-bold mb-6 border-b-2 border-apple-blue pb-2">Game Features</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-apple-gray p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-3">Character Progression</h3>
+                    <p>Evolve your character from a vulnerable survivor to a powerful monster-slaying machine through strategic upgrades and ability combinations.</p>
+                </div>
+                <div class="bg-apple-gray p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-3">Enemy Variety</h3>
+                    <p>Face diverse monsters with different attack patterns, speeds, and abilities. Adapt your strategy to handle various enemy types simultaneously.</p>
+                </div>
+                <div class="bg-apple-gray p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-3">Power-ups & Items</h3>
+                    <p>Discover special items and power-ups that provide temporary boosts or unique effects to help you in critical situations.</p>
+                </div>
+                <div class="bg-apple-gray p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-3">Challenging Bosses</h3>
+                    <p>Encounter powerful boss monsters that appear at set intervals, presenting major challenges that require quick thinking and skillful play.</p>
+                </div>
+                <div class="bg-apple-gray p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-3">Dynamic Environments</h3>
+                    <p>Navigate through procedurally generated maps with various terrain features that can both help and hinder your survival efforts.</p>
+                </div>
+                <div class="bg-apple-gray p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-3">Leaderboards</h3>
+                    <p>Compete with other players for the highest scores and longest survival times on our global leaderboards.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="tips" class="mb-16">
+            <h2 class="text-3xl font-bold mb-6 border-b-2 border-apple-blue pb-2">Tips & Strategies</h2>
+            <div class="bg-apple-gray p-6 rounded-lg">
+                <h3 class="text-xl font-bold mb-4">Survival Tips for Beginners</h3>
+                <ul class="space-y-3">
+                    <li class="flex items-start">
+                        <span class="text-apple-blue font-bold mr-2">1.</span>
+                        <p><span class="font-semibold">Keep moving:</span> Standing still is a death sentence. Develop circular kiting patterns to manage large groups of enemies.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-apple-blue font-bold mr-2">2.</span>
+                        <p><span class="font-semibold">Prioritize upgrades:</span> In early game, focus on damage output to clear enemies faster. As you progress, balance between offense and defense.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-apple-blue font-bold mr-2">3.</span>
+                        <p><span class="font-semibold">Collect experience:</span> Don't leave experience gems behind. They're crucial for leveling up and staying ahead of the difficulty curve.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-apple-blue font-bold mr-2">4.</span>
+                        <p><span class="font-semibold">Watch for synergies:</span> Some combinations of abilities and upgrades work better together. Experiment to find powerful synergies.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-apple-blue font-bold mr-2">5.</span>
+                        <p><span class="font-semibold">Use the environment:</span> Navigate through narrow passages to funnel enemies and make them easier to handle.</p>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="mt-8 md:grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-3">Advanced Techniques</h3>
+                    <p class="mb-3">As you gain experience with Monster Survivors, these advanced strategies will help you reach new survival records:</p>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li>Plan your build from the beginning based on early upgrade options</li>
+                        <li>Time your special abilities for maximum impact rather than using them immediately</li>
+                        <li>Create "safe zones" by clearing areas and using them as fallback positions</li>
+                        <li>Memorize enemy spawn patterns and position yourself advantageously</li>
+                        <li>Save health pickups until you absolutely need them</li>
+                    </ul>
+                </div>
+                <div class="mt-6 md:mt-0">
+                    <h3 class="text-xl font-bold mb-3">Common Mistakes to Avoid</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li>Overspecializing in just one type of upgrade</li>
+                        <li>Getting cornered against map boundaries</li>
+                        <li>Focusing too much on a single enemy instead of managing groups</li>
+                        <li>Neglecting movement speed upgrades</li>
+                        <li>Panicking during boss fights instead of maintaining your kiting pattern</li>
+                        <li>Forgetting to use your special abilities in critical moments</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="bg-apple-darkgray text-white py-8 px-4">
+        <div class="container mx-auto">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <h2 class="text-2xl font-bold mb-4">Monster Survivors</h2>
+                    <p class="max-w-md">The ultimate survival action game where your skills and strategy determine how long you'll last against endless monster hordes.</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8 md:gap-16">
+                    <div>
+                        <h3 class="text-lg font-semibold mb-3">Links</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-apple-blue transition">Home</a></li>
+                            <li><a href="#about" class="hover:text-apple-blue transition">About</a></li>
+                            <li><a href="#how-to-play" class="hover:text-apple-blue transition">How to Play</a></li>
+                            <li><a href="#features" class="hover:text-apple-blue transition">Features</a></li>
+                            <li><a href="#tips" class="hover:text-apple-blue transition">Tips & Tricks</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-3">Follow Us</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="hover:text-apple-blue transition">
+                                <!-- Facebook Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="hover:text-apple-blue transition">
+                                <!-- Twitter Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="hover:text-apple-blue transition">
+                                <!-- Instagram Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="hover:text-apple-blue transition">
+                                <!-- Discord Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-6 border-t border-gray-700 text-sm text-gray-400">
+                <p>© 2025 Monster Survivors. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
